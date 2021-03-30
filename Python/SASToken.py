@@ -1,7 +1,7 @@
 import time
 
 from azure.storage import AccessPolicy
-from azure.storage.blob import BlockBlobService, ContentSettings, ContainerPermissions
+from azure.storage.blob import BlobServiceClient
 
 from datetime import datetime, timedelta
 
